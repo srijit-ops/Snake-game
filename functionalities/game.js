@@ -34,10 +34,15 @@ window.requestAnimationFrame(gameLoop)
 const gameOverHandlr=()=>{
     gameOver= outOfGrid(snakeHeadHandlr())||selfCollision()
 }
+const updateScore=()=>{
+    const target=document.querySelectorAll(".score")[0]
+    target.innerHTML=`${score}`
+}
 const updateLogic=()=>{
 updateSnake()
 updateFood()
 gameOverHandlr()
+updateScore()
 }
 const drawAll=()=>{
 gameField.innerHTML=""

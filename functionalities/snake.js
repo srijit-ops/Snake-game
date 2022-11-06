@@ -42,14 +42,6 @@ const snakeHeadHandlr=()=>{
     return snakePosition[0]
 }
 const selfCollision=()=>{
-    /*let intersecting = false;
-  for(let i=1;i<snakePosition.length;i++){
-    if(snakePosition[0].x === snakePosition[i].x && snakePosition[0].y === snakePosition[i].y){
-      intersecting = true;
-      break;
-    }
-  }
-  return intersecting;*/
     return snakeOnFood(snakePosition[0],{ ignoreHead: true })
 }
 
