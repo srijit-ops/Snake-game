@@ -1,1 +1,1 @@
-### A basic snake game made with HTML, CSS and Vanilla JS. Use arrow keys to move the snake.
+### A basic snake game made with HTML, CSS and Vanilla JS. Use arrow keys to move the snake. Testing testing just testing!
